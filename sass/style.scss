@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+$bgColorBody:  #ccc;
+$bgColorContainer: #fff;
+$colorH2SongsClass: #a61212;
+$colorH3SongsClass: #ab3838;
+$bgColorFooter: #333333;
+$colorP_Footer: #f8f245; 
+body {
+	margin: 0px;
+	background-color: $bgColorBody;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+	background-color: $bgColorContainer;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+header {
+	padding: 30px;
+	background-image: url("https://images.pexels.com/photos/23764/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	max-width: 640px;
+	margin: 0 auto;
+	h1 {
+	color: red;
+	text-align: center;
+	}
+}
+
+.songs {
+	h2 {
+		font-size: 24px;
+		color: $colorH2SongsClass;
+	}
+	h3 {
+		font-size: 20px;
+		color: $colorH3SongsClass;
+	}
+	h2, h3 {
+		padding: 15px 30px;
+		text-align: center
+	}
+	p {
+		padding: 10px 60px;
+		text-align: center;
+	}
+}
+
+footer {
+	margin-top: 60px;
+	padding: 30px;
+	background: #333333;
+	max-width: 640px;
+	margin: 0 auto;
+	p {
+		color: #f8f245;
+		text-align: center;
+	}
+}
